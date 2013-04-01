@@ -20,7 +20,7 @@ func (m *StateMachine) Init(gs GameState) {
 
 /*
 Update checks if the machine is ready to move on to the next state. If
- it is, it will simply set its current state to the new one.
+it is, it will simply set its current state to the new one.
 
 See SetNextState for more information
 */
