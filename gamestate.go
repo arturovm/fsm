@@ -15,7 +15,7 @@ define your own constants in package main (or any other package of your
 liking), like so:
 
  const (
-	 FirstState fsm.StateType = iots
+	 FirstState fsm.StateType = iota
 	 SecondState
 	 ThirdState
  )
