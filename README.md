@@ -64,6 +64,10 @@ func (s *SomeState) Draw() {
     // do some drawing
 }
 
+func (s *SomeState) Type() fsm.StateType {
+    return s.stateType
+}
+
 // Game loop
 
 var FSM *fsm.StateMachine // package-wide StateMachine instance
