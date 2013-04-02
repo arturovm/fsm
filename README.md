@@ -9,7 +9,7 @@
 
 ## License
 
-Copyright © 2000 Arturo Vergara
+Copyright © 2013 Arturo Vergara
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
@@ -40,7 +40,7 @@ const (
 
 ```
 
-After that, it's only a matter of writing your own states, conforming to the `fsm.GameState` interface (see the [documentation](#documentation) for more information) and initializing a package-wide `\*fsm.StateMachine` instance, and you're good to go:
+After that, it's only a matter of writing your own states conforming to the `fsm.GameState` interface (see the [documentation](#documentation) for more information) and initializing a package-wide `*fsm.StateMachine` instance, and you're good to go:
 
 ```go
 
