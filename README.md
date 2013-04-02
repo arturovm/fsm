@@ -19,6 +19,8 @@ as published by Sam Hocevar. See the COPYING file for more details.
 
 `fsm` provides a simple finite state machine intended for game development.
 
+To install: `$ go get -u github.com/ArturoVM/fsm`
+
 ## Usage
 
 To use `fsm`, you first need to declare your own constant state types. For example:
