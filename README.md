@@ -46,6 +46,8 @@ After that, it's only a matter of writing your own states conforming to the `fsm
 
 ```go
 
+// main.go
+
 package main
 
 import "github.com/ArturoVM/fsm"
@@ -75,6 +77,7 @@ func (s *SomeState) Type() fsm.StateType {
 var FSM *fsm.StateMachine // package-wide StateMachine instance
 
 func m_init() {
+    FSM = new(fsm.StateMachine)
     var someState SomeState
     FSM.Init(&someState)
 }
